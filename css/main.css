@@ -205,4 +205,43 @@ header .search-area ul li{
     height: 600px;
     padding: 2.5%;
     margin: 0 2.5%;
+    display: inline-block;
 }
+#content-area .main-area .widget.submenu{
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+#content-area .main-area .submenu ul{
+    padding: 10px;
+    margin: 0;
+}
+
+#content-area .main-area .submenu ul li{
+    display: inline-block;
+    padding: 10px;
+    width: 20%;
+    float: left;
+    text-align: center;
+    border-bottom: 3px solid #fff;
+    transition: border-bottom .2s ease-in;
+    cursor: pointer;
+    
+}
+
+#content-area .main-area .submenu ul li:nth-last-of-type(1){
+    padding: 28px 0 23px 0;
+}
+#content-area .main-area .submenu ul li .fa{
+    font-size: 20px;
+}
+#content-area .main-area .submenu ul li:hover{
+    border-bottom: 3px solid #2196f3;
+    color: #2196f3;
+}
+#content-area .main-area .submenu ul li span{
+    margin: 15px 0 0 0;
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
